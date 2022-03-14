@@ -13,8 +13,8 @@ const Footer = () => {
                 <span className='followUs'>Follow Us</span>
                 <p className='col2Content'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been <br/>
                     <div className='socialMediaLogo'>
-                        <span className='facebookLogo'><img src="images/facebook.jpg"></img></span>  
-                        <span><img src="images/twitter.jpg"></img></span>
+                        <span className='facebookLogo'><img src="images/facebook.jpg" alt="card"></img></span>  
+                        <span><img src="images/twitter.jpg" alt="card"></img></span>
                     </div>
                 </p>
                   
@@ -87,10 +87,10 @@ const Footer = () => {
         </div>
         {/* <hr/> */}
         <div className='row3'>
-            <img src="images/Western_union.jpg" className="union"></img>
-            <img src="images/master_card.jpg" className="master"></img>
-            <img src="images/Paypal.jpg" className="paypal"></img>
-            <img src="images/visa.jpg" className="visa"></img>
+            <img src="images/Western_union.jpg" alt="card" className="union"></img>
+            <img src="images/master_card.jpg" alt="card" className="master"></img>
+            <img src="images/Paypal.jpg" alt="card" className="paypal"></img>
+            <img src="images/visa.jpg" alt="card" className="visa"></img>
         </div>
     </div>
   )
