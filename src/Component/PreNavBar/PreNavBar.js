@@ -10,15 +10,15 @@ const PreNavBar = () => {
     <div className='preNavBar'>
         <div >
           <ul className='alignLeft'>
-            <li>EN</li><a href='#'><ArrowDropDown/></a>
-            <li>$</li><a href='#'><ArrowDropDown/></a>
+            <li>EN</li><ArrowDropDown/>
+            <li>$</li><ArrowDropDown/>
           </ul>
         </div>
         <div className='alignRight'>
           <ul>
-            <span><a href='#'> <Person/> My Profile </a></span>
-            <span><a href='#'> <ShoppingCart/>2 Items Price</a></span>
-            <span><a href='#'> <Search/> </a></span>
+            <span> <Person/> My Profile </span>
+            <span> <ShoppingCart/>2 Items Price</span>
+            <span> <Search/> </span>
           </ul>
         </div>
     </div>
