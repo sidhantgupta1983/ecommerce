@@ -1,0 +1,45 @@
+.preNavBar{
+    display : grid;
+    grid-template-columns: 5fr 6fr;
+}
+
+.alignLeft{
+    display : flex;
+    margin-top : 0;
+    margin-left : 200px;
+    width: 18px;
+    height: 17px;
+    text-align: center;
+    font: normal normal normal 14px/24px Proxima Nova;
+    letter-spacing: 0px;
+    color: #262626;
+        
+}
+
+ul > li {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.alignRight{
+    margin-top : -12px;
+    margin-left : 200px;
+    /* width: 65px;
+    height: 16px;
+    text-align: left; */
+    font: normal normal 600 14px/17px Proxima Nova;
+    letter-spacing: 0.35px;
+    color: #262626;
+}
+
+ul > span > a{
+    flex : 1;
+    text-decoration: none;
+    color: black;
+    margin-left : 20px;
+    /* align-items: center; */
+}
+
+.profile, .cart, .search{
+    object-fit: contain;
+}
